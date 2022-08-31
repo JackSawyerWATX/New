@@ -6,4 +6,6 @@ public class Parent {
     public void greeting() {
         System.out.println("Leave it to " + name + "?");
     }
+    public void martini() {
+    }
 }
