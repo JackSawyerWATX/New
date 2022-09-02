@@ -7,8 +7,8 @@ Project Requirements:
 `    b. Polymorphism (overloading or overriding), 
 `    c. Encapsulation, 
 `    d. Abstraction (Abstract class or Interface)
- 2) Must create and use at least 3 Constructors
- 3) Must have at least 4 methods
+`2) Must create and use at least 3 Constructors
+`3) Must have at least 4 methods
 `4) Use a Scanner to get responses from the user
  5) Must contain a switch statement
  6) Must handle at least 1 exception

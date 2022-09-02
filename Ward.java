@@ -19,4 +19,5 @@ abstract class Ward extends Parent {
             System.out.println(answer + ". Okay.");
         }
     }
+    
 }

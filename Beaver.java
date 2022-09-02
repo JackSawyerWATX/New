@@ -15,7 +15,6 @@ public class Beaver {
     }
 
     public Beaver(String name, String age, String school) {
-        //super(name, age, school);
         this.name = name;
         this.age = age;
         this.school = school;
