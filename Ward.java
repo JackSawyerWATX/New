@@ -8,6 +8,7 @@ abstract class Ward extends Parent {
 
     @Override
     public abstract void martini();
+
     {
         try (Scanner question = new Scanner(System.in)) {
             String answer;
@@ -19,5 +20,4 @@ abstract class Ward extends Parent {
             System.out.println(answer + ". Okay.");
         }
     }
-    
 }
