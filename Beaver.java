@@ -1,4 +1,7 @@
-public class Beaver {
+import java.io.IOException;
+import java.nio.CharBuffer;
+
+public class Beaver implements Readable {
 
     // Encapsulation
     private String color;
@@ -20,7 +23,16 @@ public class Beaver {
         this.school = school;
     }
 
+    public Beaver(String[] whereIsBeaver) {
+    }
+
     public void whoAmI() {
     System.out.println("I am " + this.name + ". My family calls me Beaver. I am " + this.age + " years old and I am in " + this.school + ".");
    }
+
+    @Override
+    public int read(CharBuffer cb) throws IOException {
+        // TODO Auto-generated method stub
+        return 0;
+    }
 }
