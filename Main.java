@@ -37,17 +37,21 @@ public class Main {
         }
 
         HashSet<String> classes = new HashSet<String>();
-        classes.add("math");
-        classes.add("english");
-        classes.add("history");
-        classes.add("science");
-        classes.add("music");
-        classes.add("art");
-        classes.add("physical education");
+            classes.add("math");
+            classes.add("english");
+            classes.add("history");
+            classes.add("science");
+            classes.add("music");
+            classes.add("art");
+            classes.add("physical education");
         System.out.println(classes);
-        classes.remove("art");
+            classes.remove("art");
         System.out.println(classes);
-        classes.add("government");
+            classes.add("government");
         System.out.println(classes);
+
+        for (String ele : classes) {
+            System.out.println(ele + " and");
+        }
     }
 }
