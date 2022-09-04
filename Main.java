@@ -51,7 +51,7 @@ public class Main {
         System.out.println(classes);
 
         for (String ele : classes) {
-            System.out.println(ele + " and");
+            System.out.println(ele + " ");
         }
     }
 }
